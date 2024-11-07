@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    background-color: aqua;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}

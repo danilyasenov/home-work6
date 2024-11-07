@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея изображений</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+
+<body>
+    <h2>Галерея</h2>
+    <div class="gallery">
+        <img src="https://i.pinimg.com/736x/94/70/b6/9470b6ac2252a19e96f8529efde9ae85.jpg"
+            onclick="showImage('https://i.pinimg.com/736x/94/70/b6/9470b6ac2252a19e96f8529efde9ae85.jpg')" alt="Image 1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/220px-Macaca_nigra_self-portrait_large.jpg"
+            onclick="showImage('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/220px-Macaca_nigra_self-portrait_large.jpg')"
+            alt="Image 2">
+       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWTQvIGuFGe53uSLPWYsrzngG0BL3guOeM-CKau2RIwWGLX-rBZyqIpOspsIQukvaBBg&usqp=CAU" onclick="showImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWTQvIGuFGe53uSLPWYsrzngG0BL3guOeM-CKau2RIwWGLX-rBZyqIpOspsIQukvaBBg&usqp=CAU')" alt="Image 3">
+    </div>
+    <div class="viewer">
+        <img id="viewerImage" src="thumb1.jpg" alt="Просмотр">
+    </div>
+    <script src="task3.js"></script>
+</body>
+
+</html>
